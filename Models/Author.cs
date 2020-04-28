@@ -6,6 +6,6 @@ namespace Fisher.Bookstore.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<BooksAuthor> BookAuthor { get; set; }
+        public List<BookAuthor> BookAuthor { get; set; }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Fisher.Bookstore.Models
 {
-    public class BooksAuthor
+    public class BookAuthor
     {
         public int BookId{ get;set; }
         public Book Book{ get; set; }
